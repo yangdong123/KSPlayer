@@ -31,7 +31,6 @@ To experience the powerful features of the LGPL version, you can download the ap
 |Swift Concurrency|✅|❌|
 |AV1 hardware decoding|✅|❌|
 |Word-by-word subtitles|✅|❌|
-|All demuxers, All decoders|✅|❌|
 |Use System Caption Appearance|✅|❌|
 |Record video clips at any time|✅|❌|
 |Smoothly Play 8K or 120 FPS Video|✅|❌|
@@ -42,17 +41,20 @@ To experience the powerful features of the LGPL version, you can download the ap
 |Annex-B async hardware decoding(Live Stream)|✅|❌|
 |Use the fonts in the video to render subtitles|✅|❌|
 |Use memory cache for fast seek in short time range|✅|❌|
+|KSMEPlayer supports all demuxing and decoding formats|✅|❌|
 |Full display of ass subtitles effect(Render as image using libass)|✅|❌|
-|FFmpeg version|8.0.1|6.1.0|
+|FFmpeg version|8.1.0|6.1.0|
 |Video upscaling |💰|❌|
 |Precache data to Hard Drive|💰|❌|
 |Video switching with zero delay|💰|❌|
+|Audio Passthrough Output by Wi-Fi|💰|❌|
 |Dovi P5 displays HDR (not overheating)|💰|❌|
 |Live streaming supports rewind viewing|💰|❌|
 |ISO Blu-ray disc playback on all Apple platforms|💰|❌|
 |Simultaneous playback of separate audio and video URLs|💰|❌|
 |Offline AI real-time subtitle generation and translation|💰|❌|
-|Play videos in a small window in the App (resumable, supports macOS、iOS and tvOS)|💰|❌|
+|ProAVPlayer supports MKV, native Dolby Vision and Dolby Atmos.|💰|❌|
+|Play videos in a small window in the App (resumable, supports iOS and tvOS)|💰|❌|
 |Record video|✅|✅|
 |360° panorama video|✅|✅|
 |Picture in Picture|✅|✅|
