@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-GPL-blue.svg)
 # KSPlayer
 
-KSPlayer is a powerful media play framework for iOS, tvOS, macOS, xrOS, visionOS, Mac Catalyst. based on AVPlayer and FFmpeg, support AppKit/UIKit/SwiftUI.
+KSPlayer is a powerful media play framework for iOS, tvOS, macOS, xrOS, visionOS, Mac Catalyst. based on AVPlayer and FFmpeg, support HLG、HDR10、 HDR10+、Dolby Vision、Dolby Atmos、Text/Image subtitle.
 
 English | [简体中文](./README_CN.md)
 
@@ -27,42 +27,49 @@ To experience the powerful features of the LGPL version, you can download the ap
 
 | Feature     | LGPL      | GPL    |
 | ----------- | --------- | ------ |
+|Video upscaling |💰|❌|
+|ProgressBar Preview |💰|❌|
+|Precache data to Hard Drive|💰|❌|
+|Video output to another screen|💰|❌|
+|Video switching with zero delay|💰|❌|
+|Audio Passthrough Output by Wi-Fi|💰|❌|
+|Live streaming supports rewind viewing|💰|❌|
+|Blu-ray disc(ISO、DVD) playback on all Apple platforms|💰|❌|
+|Simultaneous playback of separate audio and video URLs|💰|❌|
+|Offline AI real-time subtitle generation and translation|💰|❌|
+|ProAVPlayer supports MKV, native Dolby Vision and Dolby Atmos.|💰|❌|
+|Native Dolby Vision dynamic metadata. P5、P8、P7(show single-layer)|💰|❌|
+|Play videos in a small window in the App (resumable, supports iOS and tvOS)|💰|❌|
 |Dolby AC-4|✅|❌|
 |Swift Concurrency|✅|❌|
+|Hardware De-interlace|✅|❌|
 |AV1 hardware decoding|✅|❌|
 |Word-by-word subtitles|✅|❌|
+|HDR10+(dynamic metadata)|✅|❌|
+|Text subtitle translation|✅|❌|
 |Use System Caption Appearance|✅|❌|
 |Record video clips at any time|✅|❌|
 |Smoothly Play 8K or 120 FPS Video|✅|❌|
+|Display Subtitles with HDR Effects|✅|❌|
 |Video download and format conversion|✅|❌|
 |External image subtitles, such as SUP|✅|❌|
 |Main subtitles and Secondary subtitles|✅|❌|
+|Adjust Saturation, Brightness, and Contrast|✅|❌|
 |Picture in Picture supports subtitle display|✅|❌|
 |Annex-B async hardware decoding(Live Stream)|✅|❌|
 |Use the fonts in the video to render subtitles|✅|❌|
 |Use memory cache for fast seek in short time range|✅|❌|
 |KSMEPlayer supports all demuxing and decoding formats|✅|❌|
 |Full display of ass subtitles effect(Render as image using libass)|✅|❌|
-|FFmpeg version|8.1.0|6.1.0|
-|Video upscaling |💰|❌|
-|Precache data to Hard Drive|💰|❌|
-|Video switching with zero delay|💰|❌|
-|Audio Passthrough Output by Wi-Fi|💰|❌|
-|Dovi P5 displays HDR (not overheating)|💰|❌|
-|Live streaming supports rewind viewing|💰|❌|
-|ISO Blu-ray disc playback on all Apple platforms|💰|❌|
-|Simultaneous playback of separate audio and video URLs|💰|❌|
-|Offline AI real-time subtitle generation and translation|💰|❌|
-|ProAVPlayer supports MKV, native Dolby Vision and Dolby Atmos.|💰|❌|
-|Play videos in a small window in the App (resumable, supports iOS and tvOS)|💰|❌|
+|FFmpeg version|8.1.1|6.1.0|
 |Record video|✅|✅|
+|4k/HDR/HDR10|✅|✅|
 |360° panorama video|✅|✅|
 |Picture in Picture|✅|✅|
 |Hardware accelerator|✅|✅|
 |Seamless loop playback|✅|✅|
 |De-interlace auto detect|✅|✅|
 |Multichannel Audio/Spatial Audio|✅|✅|
-|4k/HDR/HDR10/HDR10+/Dolby Vision|✅|✅|
 |Custom url protocols such as nfs/smb/UPnP |✅|✅|
 |Text subtitle/Image subtitle/Closed Captions|✅|✅|
 |Search Online Subtitles(shooter/assrt/opensubtitles)|✅|✅|
@@ -74,7 +81,9 @@ To experience the powerful features of the LGPL version, you can download the ap
 
 - iOS 13+, macOS 10.15+, tvOS 13+, xrOS 1+
 
-## The list of App using this SDK
+## List of Apps Licensed to Use this SDK
+
+This table does not list all licensed apps. If you would like to have your app listed above, please send me an email.
 | App Store Link | Logo |
 | -------------- | ---- |
 |[APTV](https://apps.apple.com/app/aptv/id1630403500)||
@@ -87,7 +96,7 @@ To experience the powerful features of the LGPL version, you can download the ap
 |[Spatial Video Studio](https://apps.apple.com/app/id6523429904)||
 |[SWIPTV - IPTV Smart Player](https://apps.apple.com/app/swiptv-iptv-smart-player/id1658538188)||
 |[TracyPlayer](https://apps.apple.com/app/tracyplayer/id6450770064)||
-|[UHF - Love your IPTV](https://apps.apple.com/app/uhf-love-your-iptv/id6443751726)|![logo](https://uhf-web.vercel.app/uhfsponsor.png)|
+|[UHF - Love your IPTV](https://apps.apple.com/app/uhf-love-your-iptv/id6443751726)||
 |[Zen IPTV](https://apps.apple.com/fr/app/zen-iptv/id6458223193)||
 
 
